@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Notre code Typescript sera compilé vers du code js Es6
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react", // Nous indiquons à Ts que nous allons utilisé du jsx dans notre code et nous voulons qu'il compile jsx vers tu Js
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src"
+  ]
+}
